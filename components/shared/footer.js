@@ -1,4 +1,5 @@
 import FooterFirstCol from "../footerCol/footerFirstCol.js";
+import FooterFourCol from "../footerCol/footerFourCol.js";
 import FooterSecondCol from "../footerCol/footerSecondCol.js";
 import FooterThirdCol from "../footerCol/footerThirdCol.js";
 const Footer = () => {
@@ -14,7 +15,9 @@ const Footer = () => {
         <div>
           <FooterThirdCol />
         </div>
-        <div></div>
+        <div>
+          <FooterFourCol />
+        </div>
         <div></div>
       </div>
     </footer>
