@@ -3,6 +3,7 @@ import logo from "../../public/images/logo-2.png";
 import { ImLocation2 } from "react-icons/im";
 import { BiPhoneCall } from "react-icons/bi";
 import {
+  FaMapMarkerAlt,
   FaEnvelope,
   FaFacebookF,
   FaTwitter,
@@ -18,7 +19,7 @@ const FooterFirstCol = () => {
       </p>
       <div className="py-4 text-base">
         <div className="flex items-start justify-start my-2">
-          <ImLocation2 className="mt-1" />
+          <FaMapMarkerAlt className="mt-1" />
           <p className="ml-4 my-0 py-0">Brooklyn, New York, United States</p>
         </div>
         <div className="flex items-start justify-start my-2">
