@@ -14,13 +14,13 @@ const FooterFiveCol = () => {
           className="focus:outline-none  py-3 pl-3 text-primary"
           placeholder="Email*"
         />
-        <span className="absolute top-4 -right-1 h-12 w-14 py-5 bg-secondary">
+        <span className="absolute top-4 -right-1 h-12 w-14 py-4 bg-secondary">
           <IoIosPaperPlane className="text-center ml-4 text-base" />
         </span>
       </div>
       <div className="text-base">
-        <p className="text-xl font-bold">We Accept</p>
-        <Image className="mt-6" src={payment} alt={"Payment"} />
+        <p className="text-xl mb-3 font-bold">We Accept</p>
+        <Image src={payment} alt={"Payment"} />
       </div>
     </div>
   );
