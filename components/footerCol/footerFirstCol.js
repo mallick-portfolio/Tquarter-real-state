@@ -1,6 +1,5 @@
 import Image from "next/image";
 import logo from "../../public/images/logo-2.png";
-import { ImLocation2 } from "react-icons/im";
 import { BiPhoneCall } from "react-icons/bi";
 import {
   FaMapMarkerAlt,
