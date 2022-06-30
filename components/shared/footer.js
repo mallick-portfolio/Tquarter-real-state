@@ -1,5 +1,6 @@
 import FooterFirstCol from "../footerCol/footerFirstCol.js";
 import FooterSecondCol from "../footerCol/footerSecondCol.js";
+import FooterThirdCol from "../footerCol/footerThirdCol.js";
 const Footer = () => {
   return (
     <footer className="bg-[#171B2A] text-white py-24">
@@ -10,7 +11,9 @@ const Footer = () => {
         <div>
           <FooterSecondCol />
         </div>
-        <div></div>
+        <div>
+          <FooterThirdCol />
+        </div>
         <div></div>
         <div></div>
       </div>

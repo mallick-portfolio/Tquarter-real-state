@@ -1,29 +1,29 @@
-const FooterSecondCol = () => {
+const FooterThirdCol = () => {
   return (
     <div>
-      <h1 className="text-2xl mb-4 font-bold mt-2">Company</h1>
+      <h1 className="text-2xl mb-4 font-bold mt-2">Services</h1>
       <ul>
         <li className="footer-item">
-          About
+          Order tracking
         </li>
         <li className="footer-item">
-          Blog
+          Wish List
         </li>
         <li className="footer-item">
-          All Products
+          Login
         </li>
         <li className="footer-item">
-          Location Map
+          My Account
         </li>
         <li className="footer-item">
-          FAQ
+          Terms & Conditions
         </li>
         <li className="footer-item">
-          Contact
+          Promotional Offers
         </li>
       </ul>
     </div>
   );
 };
 
-export default FooterSecondCol;
+export default FooterThirdCol;
