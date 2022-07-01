@@ -2,7 +2,7 @@ import Image from "next/image.js";
 import Logo from "../../public/images/logo.png";
 const Header = () => {
   return (
-    <div className=" py-5 bg-[#f2f6f7]">
+    <div className=" py-5 bg-white">
       <navbar className="flex justify-between items-center container mx-auto">
         <div>
           <Image src={Logo} alt={"Logo"} />
