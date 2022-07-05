@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import Image from "next/image.js";
@@ -26,7 +26,7 @@ const Slide = () => {
       <div className="w-1/2 pl-2 pr-8">
         <h3 className="text-xl"> Real Estate Agency</h3>
         <h1 className="text-5xl font-bold my-4 text-primary">
-          Find Your Dream <br /> House By Us
+          Find Your Dream <br /> House By Us  f
         </h1>
         <p className="border-l border-primary pl-8">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
