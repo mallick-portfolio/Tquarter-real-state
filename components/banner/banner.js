@@ -6,15 +6,7 @@ import slide1 from "../../public/images/61.jpg";
 export default function Banner() {
   return (
     <div className="">
-      <Swiper
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-          dynamicBullets: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
+      <Swiper autoplay={5000} speed={800} loop={true} className="mySwiper">
         <SwiperSlide>{Slide()}</SwiperSlide>
         <SwiperSlide>{Slide()}</SwiperSlide>
         <SwiperSlide>{Slide()}</SwiperSlide>
